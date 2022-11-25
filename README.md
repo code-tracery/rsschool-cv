@@ -1,1 +1,1 @@
-Проект №1 "Создание CV"
+https://code-tracery.github.io/rsschool-cv/cv
