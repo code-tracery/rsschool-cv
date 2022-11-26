@@ -1,25 +1,30 @@
 # Denis Mekshin
-## Contacts:
+## Contacts
 > +  **Phone:** +7-909-544-7580 
 > +  **E-mail:** web.development@rambler.ru
 > +  **GitHub:** [code-tracery](https://github.com/code-tracery)
 > +  **Telegram:** [Denis Mekshin](https://t.me/mekshin)
 > +  **Discord:** *Deni$(@code-tracery)*
+
 ## About Me
 I want to develop in web programming and become a full stack web developer. I like to learn and get new and interesting knowledge, which I will be able to apply in work.
+
 ## Skills
 > + **HTML**
 >  + **CSS**
 >  + **Git**
 >  + **JavaScript** (Basic)
 > +  **VS Code**
+
 ## Code Example
 #### DESCRIPTION:
  *Given two integers a and b, which can be positive or negative, find the sum of all the integers between and including them and return it.
 If the two numbers are equal > return a or b.*
 
 > ***Note: a and b are not ordered!***
+
 ____
+
 ```javascript
 function GetSum( a,b )
 {
@@ -44,6 +49,7 @@ function GetSum( a,b )
     }
 }
 ```
+
 ## My projects
 + **Markdown**
   + [CV (ver. 1.0)](https://code-tracery.github.io/rsschool-cv/cv)
@@ -51,10 +57,11 @@ function GetSum( a,b )
   + None
 + **JavaScript**
   + None
-  
+
 ## Education
 + **Courses**
   + HTML and CSS. (HTML-Academy)
+
 ## Languages
 + **Russian** - *Native*
 + **English** - *A2*
