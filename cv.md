@@ -44,3 +44,17 @@ function GetSum( a,b )
     }
 }
 ```
+## My projects
++ **Markdown**
+  + [CV (ver. 1.0)](https://code-tracery.github.io/rsschool-cv/cv)
++ **HTML**
+  + None
++ **JavaScript**
+  + None
+  
+## Education
++ **Courses**
+  + HTML and CSS. (HTML-Academy)
+## Languages
++ **Russian** - *Native*
++ **English** - *A2*
