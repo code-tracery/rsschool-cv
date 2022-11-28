@@ -1,0 +1,51 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    padding-left: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav{
+    background-color: rgb(209, 240, 162);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.menu-item {
+    padding: 20px 30px;
+    transition: all .4s;
+
+}
+
+
+.menu-item:hover{
+    background-color: rgba(249, 148, 111, 0.914);
+    color: aliceblue;
+}
+
+.menu-link{
+text-transform: uppercase;
+}
+
