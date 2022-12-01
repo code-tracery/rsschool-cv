@@ -177,3 +177,24 @@ span {
 .violet {
     color: rgb(35, 199, 236);
 }
+
+.skills-list {
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.skills-item {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+}
+
+.skills-icon {
+    max-width: 70px;
+    max-height: 70px;
+}
