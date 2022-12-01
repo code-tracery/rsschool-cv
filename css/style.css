@@ -5,6 +5,39 @@ html{
     box-sizing: inherit;
 }
 
+
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-900 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/inter-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  body {
+    font-family: Inter, sans-serif;
+
+  }
 a{
     text-decoration: none;
     color: inherit;
@@ -49,12 +82,13 @@ li{
 
 .menu-link{
 text-transform: uppercase;
+font-weight: bold;
 }
 
 .line {
     height: 7px;
-    width: 800px;
-    margin: 10px auto;
+    width: 1200px;
+    margin: 0px auto;
     background-color: rgba(249, 148, 111, 0.914);
 }
 
@@ -66,5 +100,80 @@ text-transform: uppercase;
 
 .main div {
     width: 50%;
-    background-color: bisque;
+    background-color: rgb(246, 228, 209);
+    padding: 10px 30px;
+}
+
+h1 {
+    font-family: Inter;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(85, 53, 35);
+}
+
+h2 {
+    font-family: Inter;
+    font-weight: 700;
+    background-color: rgb(85, 53, 35);
+    color: aliceblue;
+    margin-left: 40px;
+    padding: 5px 10px ;
+}
+
+
+div .photo {
+    padding-bottom: 0;
+
+}
+
+.avatar {
+    border-radius: 100px;
+    max-width: 480px;
+    max-height: 320px;
+    margin: 30px 0 0px 50px;
+}
+
+.contacts-icon{
+    max-width: 30px;
+    max-height: 30px;
+    margin: 5px;
+}
+
+.contacts-item {
+    display: flex;
+    align-items:center;
+}
+
+.contact-item-link{
+    padding: 0 0 0px 5px;
+    margin-bottom: 0px;
+    
+}
+
+p {
+    padding-left: 45px;
+    line-height: 1.3;
+}
+
+pre {
+    background-color: rgb(84, 63, 51);
+    max-width: 400px;
+    margin-left: 40px;
+    color: aliceblue;
+    
+}
+span {
+    font-weight: bold;
+    font-size: large;
+}
+.blue {
+    color: rgb(189, 239, 24);
+}
+
+.whait{
+    color: aliceblue;
+}
+
+.violet {
+    color: rgb(35, 199, 236);
 }
