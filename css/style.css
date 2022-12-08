@@ -198,3 +198,33 @@ span {
     max-width: 70px;
     max-height: 70px;
 }
+
+/* Стили футера*/
+
+.footer {
+    height: 100px;
+    background-color: rgb(92, 47, 21);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+.date-creation {
+    
+}
+
+.footer-github {
+    padding: 0;
+}
+
+.footer-github-logo {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.footer-logo {
+    max-width: 200px;
+    max-height: 80px;
+}
