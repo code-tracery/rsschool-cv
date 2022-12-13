@@ -158,8 +158,10 @@ p {
 pre {
     background-color: rgb(84, 63, 51);
     max-width: 400px;
-    margin-left: 40px;
+    margin-left: 80px;
+    margin-top: 40px;
     color: aliceblue;
+    border-radius: 50px;
     
 }
 span {
@@ -203,7 +205,7 @@ span {
 
 .footer {
     height: 100px;
-    background-color: rgb(92, 47, 21);
+    background-color: rgb(92, 77, 68);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -212,11 +214,19 @@ span {
 }
 
 .date-creation {
-    
+    color:  rgb(206, 175, 175);
 }
 
 .footer-github {
     padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-github-link {
+    padding-left: 10px;
+    padding-right: 0px;
+    color: rgb(206, 175, 175);
 }
 
 .footer-github-logo {
